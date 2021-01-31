@@ -1,6 +1,6 @@
-# vis
+# Badminton Career Visualization
 
-> A Vue.js project
+> A Vue.js project of badminton player's career visualization
 
 ## Build Setup
 
