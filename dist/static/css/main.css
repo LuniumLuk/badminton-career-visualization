@@ -1,0 +1,269 @@
+.avatar-wrap {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  .figure-img > img {
+    height: 450px;
+    transition: all ease 500ms;
+  }
+  
+  .row-wrap {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .info-wrap {
+    width: 600px;
+    text-align: left;
+    background-color: rgba(255, 255, 255, 0.4);
+    transition: all ease 500ms;
+  }
+  
+  .info-title {
+    font-size: 4em;
+    font-weight: 200;
+  }
+  
+  .info-tag {
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    width: 200px;
+    padding: 2px;
+    font-size: 1.2em;
+    font-weight: lighter;
+  }
+  
+  .info-rows {
+    margin: 10px 0;
+  }
+  
+  .info-intro {
+    margin-top: 10px;
+  }
+  
+  .info-item-key {
+    width: 140px;
+    font-weight: bold;
+  }
+  
+  .info-item-value {
+    width: 240px;
+  }
+  
+  .headerBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .left-avatar-wrap {
+      margin-left: 0;
+      transition: ease 500ms;
+  }
+
+  .main-wrap {
+      background-color: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      z-index: 2;
+  }
+  
+  .left-img {
+    height: 450px;
+    position: absolute;
+    z-index: -1;
+  }
+  
+  .right-img {
+    opacity: 1;
+    right: 0;
+    height: 450px;
+    position: absolute;
+    z-index: -1;
+    transition: ease 500ms;
+  }
+
+  .footer {
+      width: 100vw;
+      height: 5vh;
+      position: fixed;
+      background-color: white;
+      bottom: 0;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .bottom-img {
+    right: -300px;
+    height: 450px;
+    position: absolute;
+    opacity: 0.1;
+    z-index: -1;
+  }
+  
+  .bwf-img {
+    top: 10px;
+    right: 0;
+    height: 50px;
+    position: absolute;
+  }
+  
+  .asideBar {
+    transition: ease 1000ms;
+  }
+  
+  .console {
+      z-index: 1;
+      background-color: white;
+    transition: ease 1000ms;
+  }
+  
+  .main {
+    padding: 0;
+  }
+
+  .aside-wrap {
+      width: 380px;
+      padding: 10px;
+  }
+
+  .console .row-wrap {
+      justify-content: space-between;
+  }
+
+  .row-wrap .el-checkbox-group {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+
+  .el-checkbox {
+      margin: 0;
+  }
+
+  .console-title {
+      font-size: 24px;
+      font-weight: 400;
+  }
+
+  .tournament-info {
+    margin: 10px 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    padding: 5px;
+    border-radius: 6px;
+  }
+
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+
+  .tournament-win .tournament-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: #996600;
+  }
+
+  .tournament-lose .tournament-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #006699;
+    }
+
+    .tournament-win .tournament-player {
+        color: #663300;
+        font-weight: bold;
+    }
+
+    .tournament-lose .tournament-player {
+        color: #003366;
+        font-weight: bold;
+    }
+
+  .tournament-date {
+      font-size: 12px;
+      font-weight: 200;
+      color: white;
+  }
+
+  .tournament-title {
+      font-weight: bold;
+  }
+
+  .tournament-win {
+      background-color: rgba(255, 153, 0, 0.6);
+  }
+
+  .tournament-lose {
+    background-color: rgba(0, 153, 255, 0.6);
+  }
+
+  .tournament-score {
+      color: white;
+      text-shadow: 0 0 8px rgba(0,0,0,0.2);
+  }
+
+  .console-card {
+    margin: 10px 5px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 6px;
+  }
+
+  .news-title {
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .news-img {
+      width: 100px;
+      height: 100px;
+      margin-right: 10px;
+  }
+
+  .news-date {
+    font-size: 12px;
+    text-align: left;
+  }
+
+  .news-wrap {
+      margin-top: 5px;
+      align-items: center;
+  }
+
+  .news-content {
+      font-size: 12px;
+      text-align: left;
+  }
+
+  .player-name {
+    font-weight: bold;
+  }
+
+  .opponent-name {
+    font-weight: bold;
+  }
+
+  .player-win {
+      font-size: 2em;
+      color: #FF9900;
+  }
+
+  .opponent-lose {
+      font-size: 2em;
+      color: #0099FF;
+  }
+
+  .right-arrow {
+    position: absolute;
+    font-size: 100px;
+    right: 0;
+    height: 100%;
+    transition: ease 200ms;
+  }
